@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: clicketysplit
+      url-base: https://github.com/ClicketySplit
+  projects:
+    - name: zmk
+      remote: clicketysplit
+      revision: clickety_split_series_zmk_v3.5_power_domains
+      import: app/west.yml
+  self:
+    path: config
