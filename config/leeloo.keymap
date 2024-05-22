@@ -145,8 +145,8 @@ nice_view_spi: &spi0 {
         default_win_layer {
             display-name = "Win 11";
             bindings = <
-&kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp BSLH
-&kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P      &kp GRAV
+&kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp GRAV
+&kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P      &kp MINUS
 &kp LSHFT  &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N    &kp LGUI    &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
                               &kp LALT &lt 1 LGUI   &lt 2 RET  &kp SPACE     &kp RET   &lt 2 DEL  &lt 1 BSPC   &mo QC_F
