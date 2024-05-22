@@ -73,7 +73,7 @@ nice_view_spi: &spi0 {
       //      key-positions = <13 14>;
       //      layers = <QW_M>;
       //      bindings = <&kp LA(F4)>;
-        };
+      //  };
     };
 
     macros {
