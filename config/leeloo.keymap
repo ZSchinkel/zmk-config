@@ -68,11 +68,11 @@ nice_view_spi: &spi0 {
     combos {
         compatible = "zmk,combos";
 
-        combo_quit_app_win {
-            timeout-ms = <50>;
-            key-positions = <13 14>;
-            layers = <QW_M>;
-            bindings = <&kp LA(F4)>;
+      //  combo_quit_app_win {
+      //      timeout-ms = <50>;
+      //      key-positions = <13 14>;
+      //      layers = <QW_M>;
+      //      bindings = <&kp LA(F4)>;
         };
     };
 
