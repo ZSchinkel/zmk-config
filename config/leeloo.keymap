@@ -171,7 +171,7 @@ nice_view_spi: &spi0 {
         raise_win_layer {
             display-name = "Raise";
             bindings = <
-&trans     &trans     &trans     &trans     &trans     &trans                           &trans     &trans     &trans     &trans     &trans     &trans
+&trans     &trans     &trans     &trans     &trans     &trans                           &kp LBKT   &kp RBKT   &trans     &trans     &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans                           &kp PG_UP  &kp HOME   &kp UP     &kp END    &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans                           &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans     &trans      &trans    &trans     &trans     &trans     &trans     &trans     &trans
@@ -200,8 +200,8 @@ nice_view_spi: &spi0 {
 &trans      &none     &none      &none      &none      &none                            &none      &none      &kp ASTRK  &kp SLASH  &none      &none 
 &trans      &none     &none      &none      &none      &none                            &none      &kp N7     &kp N8     &kp N9     &kp MINUS  &none 
 &trans      RGBON     RGBTOG     RGBHUI     RGBSAI     RGBBRI                           &none      &kp N4     &kp N5     &kp N6     &kp PLUS   &none 
-&trans      RGBOFF    RGBEFF     RGBHUD     RGBSAD     RGBBRD     &trans      &trans    &none      &kp N1     &kp N2     &kp N3     &kp EQUAL  &trans
-                                 &trans     &trans     &trans     &trans      &trans    &kp N0     &kp DOT    &none 
+&trans      RGBOFF    RGBEFF     RGBHUD     RGBSAD     RGBBRD     &trans      &trans    &kp N0     &kp N1     &kp N2     &kp N3     &kp EQUAL  &trans
+                                 &trans     &trans     &trans     &trans      &trans    &kp DOT    &trans     &none 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
