@@ -198,9 +198,9 @@ nice_view_spi: &spi0 {
             display-name = "NumPad";
             bindings = <
 &trans      &none     &none      &none      &none      &none                            &none      &none      &kp ASTRK  &kp SLASH  &none      &none 
-&trans      &none     &none      &none      &none      &none                            &none      &kp kp_N7  &kp kp_N8  &kp kp_N9  &kp MINUS  &none 
-&trans      RGBON     RGBTOG     RGBHUI     RGBSAI     RGBBRI                           &none      &kp kp_N4  &kp kp_N5  &kp kp_N6  &kp PLUS   &none 
-&trans      RGBOFF    RGBEFF     RGBHUD     RGBSAD     RGBBRD     &trans      &trans    &kp kp_N0  &kp kp_N1  &kp kp_N2  &kp kp_N3  &kp EQUAL  &trans
+&trans      &none     &none      &none      &none      &none                            &none      &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &none 
+&trans      RGBON     RGBTOG     RGBHUI     RGBSAI     RGBBRI                           &none      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp PLUS   &none 
+&trans      RGBOFF    RGBEFF     RGBHUD     RGBSAD     RGBBRD     &trans      &trans    &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp EQUAL  &trans
                                  &trans     &trans     &trans     &trans      &trans    &kp DOT    &trans     &none 
             >;
 
